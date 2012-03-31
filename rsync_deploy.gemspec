@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = RsyncDeploy::VERSION
   s.authors     = ["Anton Dieterle"]
   s.email       = ["antondie@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "http://github.com/adie/rsync_deploy"
   s.summary     = %q{Deploy tool using rsync}
   s.description = %q{Deploy tool using rsync}
 
