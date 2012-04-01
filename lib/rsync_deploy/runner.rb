@@ -37,7 +37,9 @@ module RsyncDeploy
 
         if yesno.downcase == 'y'
           updated.each do |target|
+            puts "Deploying #{target}".bold.blue
             system "#{rsync} #{target} #{config.deploy_to}/#{target}"
+            puts
           end
           puts "~ Done!".bold.green
         else
